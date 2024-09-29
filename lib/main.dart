@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_coba/basic_widget/fab_widget.dart';
 import 'package:flutter_coba/basic_widget/text_widget.dart';
 import 'package:flutter_coba/basic_widget/text_widget2.dart';
+import 'package:flutter_coba/basic_widget/image_widget.dart';
+import 'package:flutter_coba/basic_widget/loading_cupertino.dart';
+import 'package:flutter_coba/basic_widget/dialog_widget.dart';
+import 'package:flutter_coba/basic_widget/input_widget.dart';
+import 'package:flutter_coba/basic_widget/dt_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,10 +15,13 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -107,8 +116,15 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const LoadingCupertino(),
             const MyTextWidget(),
             const MyTextWidget2(),
+            const MyImageWidget(),
+            // const MyFABWidget(),
+            const MyDialogWidget(),
+            // const MyInputWidget(),
+            const MyDTWidget(),
+          
             // const Text(
             //   'You have pushed the button this many times:',
             // ),

@@ -4,6 +4,6 @@ import "package:flutter/cupertino.dart";
 class MyTextWidget extends StatelessWidget {
   const MyTextWidget({Key ? key}) : super (key: key);
   Widget build(BuildContext context) {
-    return const Text("Halo halo");
+    return const Text("Nama Saya Wahyu, Sedang Belajar Pemrogaman Mobile");
   }
 }
