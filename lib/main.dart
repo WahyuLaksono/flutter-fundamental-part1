@@ -79,6 +79,8 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+
+
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -120,9 +122,9 @@ class _MyHomePageState extends State<MyHomePage> {
             const MyTextWidget(),
             const MyTextWidget2(),
             const MyImageWidget(),
-            // const MyFABWidget(),
+            const MyFABWidget(),
             const MyDialogWidget(),
-            // const MyInputWidget(),
+            const MyInputWidget(),
             const MyDTWidget(),
           
             // const Text(
@@ -143,3 +145,5 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+
